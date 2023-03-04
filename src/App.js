@@ -4,7 +4,13 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <Card/>
+      <h1> Exercicio React - Redux (Simples)</h1>
+      <div className='linha'>
+          <Card/>
+      </div>
+      <div className='linha'>
+          <Card/>
+      </div>
     </div>
   );
 }
