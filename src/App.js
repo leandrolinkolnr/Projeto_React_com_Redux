@@ -1,15 +1,16 @@
 import Card from './Components/Card'
 import './App.css';
+import Intervalo from './Components/Intervalo';
 
 function App() {
   return (
     <div className="App">
       <h1> Exercicio React - Redux (Simples)</h1>
       <div className='linha'>
-          <Card title="Card 1" red>X</Card>
-          <Card title="Card 2" green>X</Card>
+          <Intervalo/ >
       </div>
       <div className='linha'>
+          <Card title="Card 2" green>X</Card>
           <Card title="Card 3" blue>Y</Card>
           <Card title="Card 4" purple>X</Card>
       </div>
